@@ -5,8 +5,6 @@ import sys
 import func
 import requests
 
-
-
 recognizer = speech_recognition.Recognizer()
 s = tts.init()
 
@@ -25,7 +23,13 @@ mappings = {
     "favsong": func.favsong,
     "favcolor": func.favcolor,
     "favanimal": func.favanimal,
-    "favfood": func.favfood
+    "favfood": func.favfood,
+    "weather_report": func.weather_report,
+    "feels_like": func.Weather.feels_like,
+    "min_max": func.Weather.min_max,
+    "sunrise": func.Weather.sunrise,
+    "sunset": func.Weather.sunset,
+    "temp": func.Weather.temp
 }
 
 assistant = GenericAssistant('intents.json', intent_methods=mappings)

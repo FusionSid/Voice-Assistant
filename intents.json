@@ -8,10 +8,6 @@
     "patterns": ["Bye", "Goodbye", "Shut up", "Quit", "exit", "Bye", "Shut off", "I gotta go", "I have to go", "I have to leave", "im leaving", "Close"]
   },
   {
-    "tag": "weather",
-    "patterns": ["How is the weather", "Show weather", "Is the weather good", "Weather", "Weather today"]
-  },
-  {
     "tag": "create_note",
     "patterns": ["Create a note", "Make a note", "make a note of that", "Can you create a note", "Take note", "Note"]
   },
@@ -64,16 +60,32 @@
     "patterns": ["Roast me", "can you roast me", "roast me please", "Tell me a roast", "I would like to be roasted", "roastme"]
   },
   {
-    "tag": "weather",
-    "patterns": ["How is the weather", "Hows the weather", "what is the weather", "Weather", "Hows the weather today", "Weather today"]
+    "tag": "weather_report",
+    "patterns": ["How is the weather", "Hows the weather", "what is the weather", "Weather", "Hows the weather today", "Weather today", "Weather report", "report weather"]
   },
   {
     "tag": "joke",
     "patterns": ["Tell me a joke", "Tell a joke", "joke", "Make me laugh", "Tell me a funny joke"]
   },
   {
-    "tag": "",
-    "patterns": [""]
+    "tag": "feels_like",
+    "patterns": ["What does it feel like", "feels like", "weather feel like", "what does the weather today feel like"]
+  },
+  {
+    "tag": "temp",
+    "patterns": ["What is the temperature", "temperature", "temperature right now", "temp", "temperature today"]
+  },
+  {
+    "tag": "min_max",
+    "patterns": ["What is the minimum temperature today", "what is the maximum temperature today", "min max", "minimum and maximum temperature"]
+  },
+  {
+    "tag": "sunset",
+    "patterns": ["When is sunset", "When is sunset today", "what time is sunset", "sunset today", "sunset time"]
+  },
+  {
+    "tag": "sunrise",
+    "patterns": ["When is sunrise", "When is sunrise today", "what time is sunrise", "sunrise today", "sunrise time"]
   },
   {
     "tag": "",
